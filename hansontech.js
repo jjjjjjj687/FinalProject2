@@ -159,6 +159,7 @@ $(function(){
         alert("YOU GOT IT YAY")
         alert("You got it in "+count+" attemps!")
         count = 0
+        var number = Math.floor(Math. random() * 100) + 1;
 
     }
 

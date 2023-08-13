@@ -65,21 +65,82 @@ body {
 
 
 #title{
-    color:#1bdbdb;
+    color:#001d91;
 
     /* also gotten from google fonts*/
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
     /* also gotten from google fonts*/
     
-    border: 5px solid blue; /* theres solid, dotted, find more idk */
+    border: 5px solid rgb(0, 181, 181); /* theres solid, dotted, find more idk */
 
     padding: 43px;
-    background-color: rgba(255, 252, 66, 0.377);
+    background-color: lightgray;
     margin: 30px;
 
     /* padding is kina like spacing between the line border and the text
     the margin is an invisable spacer from other elements. it is outside the border */
 
     display:inline-block;
+}
+
+#toodo{
+    width: 260px
+}
+
+#grey{
+    color:grey
+
+}
+
+#subtitle{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+
+}
+
+.title-bar h4 {
+    display: inline-block;
+    margin: 0;
+}
+
+.title-bar a{
+    color:black;
+    text-decoration: none;
+}
+
+.title-bar a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.title-bar {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.908), rgb(225, 225, 225));
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; /*theres also "center" */
+    align-items: center;
+}
+
+#small{
+    font-size: 2px;
+}
+
+/* Add this in an external CSS file or within a <style> tag in your HTML */
+footer {
+    background-color: #838383;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.center-text {
+    text-align: center;
 }
